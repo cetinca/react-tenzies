@@ -1,0 +1,77 @@
+palette {
+    color: #00171f;
+    color: #ffffff;
+    color: #003459;
+    color: #007ea7;
+    color: #00a8e8;
+  }
+
+.main {
+    width: 50vw;
+    height: 80vh;
+    background-color: #00171f;
+    margin: 1rem auto;
+    border-radius: 0.5rem;
+    padding: 5vh 5vw;
+    position: relative;
+}
+
+.board {
+    background-color: #fff;
+    width: 40vw;
+    height: 70vh;
+    border-radius: 0.5rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.title, .instructions {
+    color:#003459;
+    margin: 0 1vw;
+}
+
+.board--up, .board--down {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+.dice {
+    background-color: #003459;
+    margin: 0 1vw;
+    color: #fff;
+    width: 3rem;
+    height: 3rem;
+    font-size: 2rem;
+    text-align: center;
+    line-height: 3rem;
+    box-shadow: 0px 2px 2px #007ea7;
+    border-radius: 0.2rem;
+    cursor: pointer;
+}
+
+.isheld {
+    background-color: aquamarine;
+}
+
+.board--button {
+    width: 10vw;
+    color: #fff;
+    background-color: #007ea7;
+    border-radius: 0.2rem;
+    cursor: pointer;
+    border: none;
+    outline: none;
+    box-shadow: 0px 2px 2px #00a8e8;
+    padding: 0.5rem;
+}
+
+.board--button:hover {
+    opacity: 0.85;
+}
+
+.board--button:click {
+
+}
